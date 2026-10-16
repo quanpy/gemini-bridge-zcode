@@ -29,9 +29,8 @@ ZCode → http://127.0.0.1:8899/v1beta/openai (Node 修复代理 v6) → https:/
 
 ## 快速开始
 
-### 1. 安装 skill(可选,推荐)
+### 1. 安装 nodejs
 
-本目录即技能本体,已位于 `%USERPROFILE%\.agents\skills\gemini-bridge\`。之后任何对话里提到 Gemini API 报错,agent 会自动按这套方案排障。
 
 ### 2. 启动代理
 
@@ -88,7 +87,7 @@ curl "https://generativelanguage.googleapis.com/v1beta/models?key=<KEY>"
 - **报错的 TraceID 不变说明在旧会话里打转** —— 改完配置必开新对话
 - **思考档位**:Google 只认 `high/low/medium/minimal/none`,不认 `max`
 
-## 前提条件(不在本项目范围内)
+## 前提条件
 
 - Node.js ≥ 18(`node --version` 确认)
 - 网络能访问 `generativelanguage.googleapis.com`(本机直连不通时,Windows 系统代理需开启且代理软件在运行——代理会自动检测)
