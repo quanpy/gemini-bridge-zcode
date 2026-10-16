@@ -2,7 +2,7 @@
 
 **让 ZCode 无痛使用 Gemini API —— 附带一个本地签名修复代理,根治 `thought_signature 400` 和长对话断连。**
 
-> 本项目由 `D:\root\zcode-gemini-bridge-master` 导入,并将代理从 PowerShell 单线程版升级为 **Node.js 事件驱动版 (v6)**。
+> 本项目由 `https://github.com/laverta/zcode-gemini-bridge` 导入,并将代理从 PowerShell 单线程版升级为 **Node.js 事件驱动版 (v6)**。
 
 ## 这是什么
 
